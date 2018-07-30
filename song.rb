@@ -81,4 +81,3 @@ describe "Song" do
       expect(Song.artist_count).to eq({"Brittany Spears" => 1, "Jay-Z" => 2})
     end
   end
-end
