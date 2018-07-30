@@ -56,7 +56,7 @@ describe "Song" do
     it "is a class method that returns that number of songs created" do
       expect(Song.count).to eq(3)
     end
-  end
+  
 
   describe ".artists" do
     it "is a class method that returns a unique array of artists of existing songs" do
